@@ -2,7 +2,7 @@
 //  INSTITUTION: Galgotias University
 /*
 
-See the whiteboard image in the link:  https://imgur.com/a/c7Npu
+See the whiteboard image in the link:  https://drive.google.com/file/d/1AGaYJ0anvc6fSW20HzNuhQmFoQYzohXI/view?usp=sharing
 or
 geeksforgeeks: https://www.geeksforgeeks.org/maximum-absolute-difference-value-index-sums/
 */
