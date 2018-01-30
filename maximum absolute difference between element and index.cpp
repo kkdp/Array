@@ -1,5 +1,11 @@
 //  USERNAME: krishankantray
 //  INSTITUTION: Galgotias University
+/*
+
+See the whiteboard image in the link:  https://imgur.com/a/c7Npu
+or
+geeksforgeeks: https://www.geeksforgeeks.org/maximum-absolute-difference-value-index-sums/
+*/
 
 #include <iostream>
 #include <cstdio>
