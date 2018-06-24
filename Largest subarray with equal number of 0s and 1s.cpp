@@ -5,19 +5,20 @@
   #include <string>
   #include <chrono>
   #include <complex>
+
   
   using namespace std;
  
   int main()
   {
-   vector<int>v={1, 0, 1, 1,1,1,1,0,0,0,1,1,0,1};
+   vector<int>v={1, 1, 1, 1,1,1,1};
    for(int i=1; i<v.size(); i++)
     if(v[i]==1)
       v[i]+=v[i-1];
     else
       v[i]=v[i-1]-1;
     map<int,int>momo;
-    int s,m=0,e;
+    int s=-1,m=0,e=-1;
 
     for(int i=0; i<v.size(); i++)
     {
@@ -45,6 +46,9 @@
 
       }
     }
+    if(s==-1 && e==-1)
+      cout<<"No subarray found";
+    else
     cout<<s<<"   "<<e;
    
    return 0;
