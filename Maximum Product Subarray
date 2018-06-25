@@ -1,0 +1,28 @@
+  #include <bits/stdc++.h>
+  #include <cstdio>
+  #include <cstring>
+  #include <cmath>
+  #include <string>
+  #include <chrono>
+  #include <complex>
+  #include <climits>
+  
+  
+  using namespace std;
+ 
+  int main()
+  {
+    vector<int>arr={0, -4, 0, -2};
+    int n=arr.size(),res=INT_MIN;
+    int cur_mx=INT_MIN, cur_mn=INT_MAX, prev_mx=arr[0],prev_mn=arr[0];
+    for (int i = 1; i < n; ++i)
+    {
+      cur_mx=max(max(prev_mx*arr[i], prev_mn*arr[i]), arr[i]);
+      cur_mn=min(min(prev_mx*arr[i],prev_mn*arr[i]),arr[i]);
+      res=max(res,cur_mx);
+      prev_mn=cur_mn;
+      prev_mx=cur_mx;
+    }
+    cout<<res;
+     return 0;
+  }
