@@ -1,3 +1,6 @@
+//https://www.hackerrank.com/challenges/minimum-swaps-2/problem
+//https://www.hackerrank.com/challenges/lilys-homework/problem
+// also similar to minimum swaps to convert one array to other
 #include <iostream>
 #include <cstdio>
 #include <vector>
